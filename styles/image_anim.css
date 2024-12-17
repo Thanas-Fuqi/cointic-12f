@@ -1,0 +1,46 @@
+.section img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.section .b {
+  transform: rotateY(180deg);
+}
+
+/*.desktop-hover .section img {
+  width: unset;
+}*/
+
+.desktop-hover .section:hover .a {
+  animation: rotate-a 4s forwards;
+}
+
+.desktop-hover .section:hover .b {
+  animation: rotate-b 4s forwards;
+}
+
+@keyframes rotate-a {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(1980deg);
+  }
+}
+
+@keyframes rotate-b {
+  0% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateY(2160deg);
+  }
+}
