@@ -1,9 +1,9 @@
 .section img {
-  height: 80%;
+  height: 70%;
   width: 100%;
   object-fit: contain;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 0;
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -12,10 +12,6 @@
 .section .b {
   transform: rotateY(180deg);
 }
-
-/*.desktop-hover .section img {
-  width: unset;
-}*/
 
 .desktop-hover .section:hover .a {
   animation: rotate-a 4s forwards;

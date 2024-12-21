@@ -5,33 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Historiku i parave</title>
-  <link rel="stylesheet" type="text/css" href=".\styles\style.css">
   <link rel="stylesheet" type="text/css" href=".\styles\image_anim.css">
+  <link rel="stylesheet" type="text/css" href=".\styles\style.css">
 </head>
 
 <body>
-  <div class="section">
-    <img src=".\coin_img\c2_n1.png" alt="Placeholder Image" class="a">
-    <img src=".\coin_img\c2_n2.png" alt="Placeholder Image" class="b">
-    <div class="section-content">Section 1</div>
-  </div>
-  <div class="section">
-    <img src=".\coin_img\c1_n1.png" alt="Placeholder Image" class="a">
-    <img src=".\coin_img\c1_n2.png" alt="Placeholder Image" class="b">
-    <div class="section-content">Section 2</div>
-  </div>
-  <div class="section">
-    <img src=".\coin_img\c3_n1.png" alt="Placeholder Image" class="a">
-    <img src=".\coin_img\c3_n2.png" alt="Placeholder Image" class="b">
-    <div class="section-content">Section 3</div>
-  </div>
-  <div class="section">
-    <img src=".\coin_img\c4_n1.png" alt="Placeholder Image" class="a">
-    <img src=".\coin_img\c4_n2.png" alt="Placeholder Image" class="b">
-    <div class="section-content">Section 4</div>
-  </div>
-
-  <script src=".\script.js"></script>
+  <script src="./logic/database.js"></script>
+  <script src="./logic/script.js"></script>
+  <script>
+    if (window.innerWidth >= 1024) {
+      document.body.classList.add('desktop-hover');
+    }
+  </script>
 </body>
 
 </html>
