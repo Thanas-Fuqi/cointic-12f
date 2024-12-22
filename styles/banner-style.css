@@ -1,34 +1,33 @@
-.banner {
-  box-shadow: 0 0 80px rgba(255, 0, 200, 0.8);
-  display: inline-block;
-  margin: 30px 10px;
-  max-width: 190px;
+.left-banner,
+.right-banner {
   position: fixed;
-  width: 100%;
+  height: 100%;
+  width: 12%;
   bottom: 0;
   top: 0;
 }
 
 .left-banner {
-  background: url(../banner/banner-left.png) no-repeat;
-  background-color: rgba(255, 0, 200, 0.8);
-  background-blend-mode: hard-light;
-  left: 15px;
+  left: 0;
 }
 
 .right-banner {
-  background: url(../banner/banner-right.png) no-repeat;
-  background-color: rgba(255, 0, 200, 0.8);
-  background-blend-mode: hard-light;
-  right: 15px;
+  right: 0;
+}
+
+.left-banner img,
+.right-banner img {
+  height: 100%;
+  width: auto;
 }
 
 @media only screen and (max-width: 1590px) {
-  .banner {
-    display: none;
-  }
-
   .border-box {
     width: 80%;
+  }
+
+  .left-banner,
+  .right-banner {
+    display: none;
   }
 }
