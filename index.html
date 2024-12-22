@@ -5,12 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Historiku i parave</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+
+  <link rel="stylesheet" type="text/css" href="./styles/base-style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/content-style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/animation-style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/banner-style.css">
 </head>
 
 <body>
+  <p class="head">Albumi Digjital</p>
+
+  <div class="banner left-banner"></div>
+  <div class="banner right-banner"></div>
+
   <script src="./logic/database.js"></script>
   <script src="./logic/populate.js"></script>
+
   <script>
     if (window.innerWidth >= 1024) {
       document.body.classList.add('desktop-hover');
