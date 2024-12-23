@@ -1,0 +1,35 @@
+/* Initial banner styles */
+.left-banner,
+.right-banner {
+  position: fixed;
+  height: 100%;
+  width: 12%;
+  bottom: 0;
+  top: 0;
+}
+
+/* Apply this styles for small screen */
+@media only screen and (max-width: 1590px) {
+
+  .left-banner,
+  .right-banner {
+    display: none;
+  }
+}
+
+/* Stick to the left */
+.left-banner {
+  left: 0;
+}
+
+/* Stick to the right */
+.right-banner {
+  right: 0;
+}
+
+/* Make the images full size */
+.left-banner img,
+.right-banner img {
+  height: 100%;
+  width: auto;
+}

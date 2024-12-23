@@ -1,0 +1,107 @@
+/* Setup the country box layout/border */
+.country-box {
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 100px;
+
+  border-radius: 15px;
+  border: 4px double;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+/* Apply this styles for small screen */
+@media only screen and (max-width: 1590px) {
+  .country-box {
+    width: 80%;
+  }
+}
+
+/* Setup the coin section layout/border */
+.coin-section {
+  width: 60%;
+  height: 300px;
+  padding: 20px;
+  margin: 20px;
+
+  background-color: rgba(69, 67, 64, 0.155);
+  position: relative;
+  overflow: hidden;
+
+  border: 2px #ffffff;
+  box-shadow: 0px 0px 15px 3px rgba(153, 152, 150, 0.5);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the coin name */
+.coin-name {
+  text-shadow: var(--primary-bg) 1px 0 10px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* Style for the coin images */
+.coin-section img {
+  height: 70%;
+  width: 80%;
+
+  top: 20%;
+  left: 10%;
+
+  position: absolute;
+  object-fit: contain;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+/* ---------------------------------------- */
+
+/* Hide the back side image by rotating it */
+.coin-section .back {
+  transform: rotateY(180deg);
+}
+
+/* Only animate front when over a hoverable section */
+.hoverable .coin-section:hover .front {
+  animation: rotate-front 4s forwards;
+}
+
+/* Only animate back when over a hoverable section */
+.hoverable .coin-section:hover .back {
+  animation: rotate-back 4s forwards;
+}
+
+/* Animation to rotate the front side */
+@keyframes rotate-front {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(1980deg);
+  }
+}
+
+/* Animation to rotate the back side */
+@keyframes rotate-back {
+  0% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateY(2160deg);
+  }
+}

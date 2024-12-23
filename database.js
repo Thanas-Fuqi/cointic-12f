@@ -1,6 +1,7 @@
 ﻿const data = [
   {
     "country": "Shtetet e Bashkuara",
+    "code": "USA",
     "color": "green",
     "name": ["Penny", "Dollar", "pseudo"],
     "coins": [[
@@ -34,7 +35,8 @@
     ]
   },
   {
-    "country": "Ukrainw",
+    "country": "Ukrainë",
+    "code": "UKR",
     "color": "yellow",
     "name": ["Penny", "Dollar", "pseudo"],
     "coins": [[
@@ -66,5 +68,5 @@
       },
     ],
     ]
-  }
+  },
 ];

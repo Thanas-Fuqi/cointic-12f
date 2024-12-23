@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Historiku i parave</title>
 
-  <link rel="stylesheet" type="text/css" href="./styles/base-style.css">
-  <link rel="stylesheet" type="text/css" href="./styles/content-style.css">
-  <link rel="stylesheet" type="text/css" href="./styles/animation-style.css">
-  <link rel="stylesheet" type="text/css" href="./styles/banner-style.css">
+  <!-- Site styles (css) -->
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="stylesheet" type="text/css" href="./banner/styles.css">
+  <link rel="stylesheet" type="text/css" href="./page1_code/styles.css">
 </head>
 
 <body>
-  <p class="head">Albumi Digjital</p>
+  <!-- Site title -->
+  <p class="site-title">Albumi Digjital</p>
 
+  <!-- Site banners -->
   <div class="left-banner">
     <img src="./banner/banner-left.png" alt="Left Banner">
   </div>
@@ -22,14 +24,14 @@
     <img src="./banner/banner-right.png" alt="Right Banner">
   </div>
 
-  <script src="./logic/database.js"></script>
-  <script src="./logic/populate.js"></script>
+  <!-- Available screens to show  -->
+  <div class="first-screen"></div>
+  <div class="second-screen"></div>
 
-  <script>
-    if (window.innerWidth >= 1024) {
-      document.body.classList.add('desktop-hover');
-    }
-  </script>
+  <!-- Site logic (js) -->
+  <script src="./database.js"></script>
+  <script src="./page2_code/populate.js"></script>
+  <script src="./page1_code/populate.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+/* Root variables for color theme */
+:root {
+  --primary-bg: #121212;
+  --primary-text: #ffffff;
+}
+
+/* Change colors if device in light theme */
+/*@media (prefers-color-scheme: light) {
+  :root {
+    --primary-bg: #f5f5f5;
+    --primary-text: #000000;
+  }
+}*/
+
+/* Body initial layout */
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  color: var(--primary-text);
+  font-family: Arial, sans-serif;
+  background-color: var(--primary-bg);
+}
+
+/* Style the site title */
+.site-title {
+  font-size: xx-large;
+}
+
+/* Display the first screen */
+.first-screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hide the second screen */
+.second-screen {
+  display: none;
+}
