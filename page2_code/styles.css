@@ -1,0 +1,64 @@
+/* Setup the coin section layout/border */
+.coin-section-2 {
+  width: 60%;
+  height: 65vh;
+  padding: 20px;
+  margin: 15px;
+
+  background-color: rgba(69, 67, 64, 0.155);
+  position: relative;
+  overflow: hidden;
+
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 15px 3px rgba(153, 152, 150, 0.5);
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Style the coin name */
+.coin-name-2 {
+  position: absolute;
+  top: 20px;
+
+  text-shadow: var(--primary-bg) 1px 0 10px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* Styles for the images */
+.coin-image-2 {
+  height: 300px;
+  width: auto;
+
+  position: absolute;
+  right: 80px;
+}
+
+/* Styles for the number section */
+.number-section-2 {
+  height: 300px;
+  width: 300px;
+  right: 80px;
+  position: absolute;
+}
+
+/* Styles for each circle */
+.number-circle-2 {
+  height: 30px;
+  width: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: absolute;
+  font-size: medium;
+  border-radius: 90px;
+  background-color: black;
+  border: 2px solid #ffffff;
+}

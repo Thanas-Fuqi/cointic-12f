@@ -1,19 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Get the screens to populate with the corresponding data
+  const firstScreen = document.querySelector(".first-screen");
+  const secondScreen = document.querySelector(".second-screen");
+
+  // If in a desktop enable animation
+  if (window.innerWidth >= 1024) {
+    firstScreen.classList.add("hoverable");
+  }
+
   // Loop through each state in the data array
   data.forEach(country => {
     // Create each country border div
     const countryBox = document.createElement("div");
     countryBox.classList.add("country-box");
     countryBox.style.borderColor = country.color;
-
-    // If in a desktop enable animation
-    if (window.innerWidth >= 1024) {
-      countryBox.classList.add("hoverable");
-    }
-
-    // Get the pages to edit later on
-    const firstScreen = document.querySelector(".first-screen");
-    const secondScreen = document.querySelector(".second-screen");
 
     // Create the country name with the corresponding color
     const countryText = document.createElement("span");
@@ -28,12 +28,21 @@ document.addEventListener("DOMContentLoaded", () => {
       const coinSection = document.createElement("div");
       coinSection.classList.add("coin-section");
 
-      // Clear everything and draw next screen when clicked
-      coinSection.onclick = () => {
-        firstScreen.innerHTML = '';
-        secondScreen.style.display = "flex";
-        renderSecondScreen(country, j);
+      // If in a desktop enable click
+      if (window.innerWidth >= 1024) {
+        // Clear everything and draw next screen when clicked
+        coinSection.onclick = () => {
+          firstScreen.style.display = "none";
+          secondScreen.style.display = "flex";
+          renderSecondScreen(country, j);
+        }
       }
+
+      // Create the coin name and add a class for styles
+      const coinName = document.createElement("span");
+      coinName.classList.add("coin-name");
+      coinName.textContent = country.name[j];
+      coinSection.appendChild(coinName);
 
       // Create the front side of coin image
       const front = document.createElement("img");
@@ -48,12 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
       back.classList.add("back");
       back.src = `./coin_img/${country.code}/${j}b.png`;
       coinSection.appendChild(back);
-
-      // Create the coin name and add a class for styles
-      const coinName = document.createElement("span");
-      coinName.classList.add("coin-name");
-      coinName.textContent = country.name[j];
-      coinSection.appendChild(coinName);
 
       // Add the coin section to the country section
       countryBox.appendChild(coinSection);
