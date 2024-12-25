@@ -1,64 +1,93 @@
 /* Setup the coin section layout/border */
 .coin-section-2 {
+  margin-bottom: 40px;
+  height: 580px;
   width: 60%;
-  height: 65vh;
-  padding: 20px;
-  margin: 15px;
 
-  background-color: rgba(69, 67, 64, 0.155);
-  position: relative;
-  overflow: hidden;
-
-  border: 2px solid #ffffff;
-  box-shadow: 0px 0px 15px 3px rgba(153, 152, 150, 0.5);
   border-radius: 15px;
+  border: 2px solid var(--primary-text);
+  box-shadow: 0px 0px 15px 3px var(--shadow);
+  background-color: var(--trans-bg);
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+}
+
+/* Apply styles for small screen */
+@media (max-width: 1024px) {
+  .coin-section-2 {
+    height: 580px;
+    width: 80%;
+  }
+}
+
+/* Back button styles */
+.back-button-2 {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 /* Style the coin name */
 .coin-name-2 {
-  position: absolute;
-  top: 20px;
-
   text-shadow: var(--primary-bg) 1px 0 10px;
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
-}
-
-/* Styles for the images */
-.coin-image-2 {
-  height: 300px;
-  width: auto;
 
   position: absolute;
-  right: 80px;
+  top: 20px;
 }
 
-/* Styles for the number section */
+/* Styles for the information */
+.info-section-2 {
+  height: 100px;
+  width: 70%;
+
+  padding: 20px;
+  position: absolute;
+  bottom: 30px;
+
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Styles for numbers sections */
+.coin-image-2,
 .number-section-2 {
-  height: 300px;
-  width: 300px;
-  right: 80px;
   position: absolute;
+  top: 90px;
+
+  width: 300px;
+  height: 300px;
+}
+
+/* Let the clicks go through */
+.number-section-2 {
+  pointer-events: none;
 }
 
 /* Styles for each circle */
 .number-circle-2 {
-  height: 30px;
-  width: 30px;
+  height: 10%;
+  width: 10%;
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
+  pointer-events: auto;
   position: absolute;
   font-size: medium;
+
   border-radius: 90px;
-  background-color: black;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--primary-text);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--primary-bg);
 }

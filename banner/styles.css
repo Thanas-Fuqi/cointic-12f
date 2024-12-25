@@ -3,13 +3,13 @@
 .right-banner {
   position: fixed;
   height: 100%;
-  width: 12%;
+  width: 150px;
   bottom: 0;
   top: 0;
 }
 
 /* Apply this styles for small screen */
-@media only screen and (max-width: 1590px) {
+@media (max-width: 1024px) {
 
   .left-banner,
   .right-banner {
@@ -30,6 +30,7 @@
 /* Make the images full size */
 .left-banner img,
 .right-banner img {
+  width: 100%;
   height: 100%;
-  width: auto;
+  object-fit: cover;
 }

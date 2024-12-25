@@ -1,16 +1,19 @@
 /* Root variables for color theme */
 :root {
+  --trans-bg: rgba(66, 66, 66, 0.2);
+  --shadow: rgba(119, 119, 119, 0.5);
+
   --primary-bg: #121212;
   --primary-text: #ffffff;
 }
 
 /* Change colors if device in light theme */
-/*@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     --primary-bg: #f5f5f5;
     --primary-text: #000000;
   }
-}*/
+}
 
 /* Body initial layout */
 body {

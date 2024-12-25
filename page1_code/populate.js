@@ -28,14 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const coinSection = document.createElement("div");
       coinSection.classList.add("coin-section");
 
-      // If in a desktop enable click
-      if (window.innerWidth >= 1024) {
-        // Clear everything and draw next screen when clicked
-        coinSection.onclick = () => {
-          firstScreen.style.display = "none";
-          secondScreen.style.display = "flex";
-          renderSecondScreen(country, j);
-        }
+      // Clear everything and draw next screen when clicked
+      coinSection.onclick = () => {
+        firstScreen.style.display = "none";
+        secondScreen.style.display = "flex";
+
+        secondScreen.innerHTML = "";
+        renderSecondScreen(country, j);
       }
 
       // Create the coin name and add a class for styles
