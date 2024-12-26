@@ -1,5 +1,5 @@
 ﻿// Default look of the info section
-const defaultInformation = "Klikoni mbi një nga numrat për të marrë informacionin ose klikoni mbi monedhën për të parë kahu tjetër të saj!"
+const defaultInformation = "Klikoni mbi numrat për të marrë informacionin ose klikoni mbi monedhën për të parë kahun tjetër!"
 
 // All data for each coin of each state
 const data = [
