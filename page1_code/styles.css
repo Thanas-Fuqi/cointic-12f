@@ -43,6 +43,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 /* Style the coin name */

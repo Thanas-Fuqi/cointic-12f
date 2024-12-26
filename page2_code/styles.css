@@ -29,6 +29,7 @@
   width: 50px;
   height: 50px;
 
+  cursor: pointer;
   position: absolute;
   left: 10px;
   top: 10px;
@@ -81,10 +82,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  pointer-events: auto;
   position: absolute;
   font-size: medium;
+
+  cursor: pointer;
+  pointer-events: auto;
+  user-select: none;
 
   border-radius: 90px;
   border: 2px solid var(--primary-text);
