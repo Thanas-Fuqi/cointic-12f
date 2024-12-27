@@ -78,19 +78,18 @@ function renderSecondScreen(country, i) {
   // Change to the other image if clicked
   coinImage.onclick = () => {
     // The flip of coin logic ... ... ...
-    const side = coinImage.src.includes("a") ? "b" : "a";
+    const isA = coinImage.src[coinImage.src.length - 5] === "a";
 
     // Re-populate the numbers based on the side
     numberSection.innerHTML = ""; // Clears previous data
     infoSection.innerHTML = defaultInformation; // Clears it
-    let currentIndex = side == "a" ? 0 : 1; // Gets the index
-    Object.keys(country.coins[i][currentIndex]).forEach((key, j) => {
-      const infoText = JSON.stringify(j + 1) + " => " + country.coins[i][currentIndex][key];
+    Object.keys(country.coins[i][isA ? 0 : 1]).forEach((key, j) => {
+      const infoText = JSON.stringify(j + 1) + " => " + country.coins[i][isA ? 0 : 1][key];
       numberSection.appendChild(createNum(parseInt(key), j, infoText, infoSection));
     });
 
     // Change the side of the current coin image
-    coinImage.src = `./coin_img/${country.code}/${i}${side}.png`;
+    coinImage.src = `./coin_img/${country.code}/${i}${isA ? "b" : "a"}.png`;
   };
 
   // Get the section and populate with objects
