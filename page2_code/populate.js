@@ -61,7 +61,7 @@ function renderSecondScreen(country, i) {
   const coinImage = document.createElement("img");
   coinImage.alt = "Coin Image";
   coinImage.classList.add("coin-image-2");
-  coinImage.src = `./coin_img/${country.code}/${i}a.png?v=${new Date().getTime()}`;
+  coinImage.src = `./coin_img/${country.code}/${i}a.png`;
   coinSection.appendChild(coinImage);
 
   // Create the section to put all the numbers
@@ -89,8 +89,8 @@ function renderSecondScreen(country, i) {
       numberSection.appendChild(createNum(parseInt(key), j, infoText, infoSection));
     });
 
-    // Change the side of the current coin image and add not caching time to reload
-    coinImage.src = `./coin_img/${country.code}/${i}${side}.png?v=${new Date().getTime()}`;
+    // Change the side of the current coin image
+    coinImage.src = `./coin_img/${country.code}/${i}${side}.png`;
   };
 
   // Get the section and populate with objects
