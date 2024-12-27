@@ -83,8 +83,8 @@ function renderSecondScreen(country, i) {
     // Re-populate the numbers based on the side
     numberSection.innerHTML = ""; // Clears previous data
     infoSection.innerHTML = defaultInformation; // Clears it
-    Object.keys(country.coins[i][isA ? 0 : 1]).forEach((key, j) => {
-      const infoText = JSON.stringify(j + 1) + " => " + country.coins[i][isA ? 0 : 1][key];
+    Object.keys(country.coins[i][isA ? 1 : 0]).forEach((key, j) => {
+      const infoText = JSON.stringify(j + 1) + " => " + country.coins[i][isA ? 1 : 0][key];
       numberSection.appendChild(createNum(parseInt(key), j, infoText, infoSection));
     });
 
