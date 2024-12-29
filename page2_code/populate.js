@@ -32,7 +32,6 @@ function renderSecondScreen(country, i) {
   backButton.alt = "Back Button";
   backButton.classList.add("back-button-2");
   backButton.src = "./page2_code/back_img.png";
-  coinSection.appendChild(backButton);
 
   // Return back to the first screen when the back is clicked
   backButton.onclick = () => {
@@ -49,25 +48,21 @@ function renderSecondScreen(country, i) {
   const coinName = document.createElement("span");
   coinName.classList.add("coin-name-2");
   coinName.textContent = country.name[i];
-  coinSection.appendChild(coinName);
 
   // Create the information section
   const infoSection = document.createElement("div");
   infoSection.classList.add("info-section-2");
   infoSection.innerHTML = defaultInformation;
-  coinSection.appendChild(infoSection);
 
   // Create the coin image to put the numbers on
   const coinImage = document.createElement("img");
   coinImage.alt = "Coin Image";
   coinImage.classList.add("coin-image-2");
   coinImage.src = `./coin_img/${country.code}/${i}a.png`;
-  coinSection.appendChild(coinImage);
 
   // Create the section to put all the numbers
   const numberSection = document.createElement("div");
   numberSection.classList.add("number-section-2");
-  coinSection.appendChild(numberSection);
 
   // Create number circle from the data
   Object.keys(country.coins[i][0]).forEach((key, j) => {
@@ -93,5 +88,12 @@ function renderSecondScreen(country, i) {
   };
 
   // Get the section and populate with objects
+  coinSection.appendChild(backButton);
+  coinSection.appendChild(coinName);
+
+  coinSection.appendChild(coinImage);
+  coinSection.appendChild(numberSection);
+
+  coinSection.appendChild(infoSection);
   secondScreen.appendChild(coinSection);
 }
