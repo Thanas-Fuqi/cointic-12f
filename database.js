@@ -162,8 +162,8 @@ const data = [
     "coins": [
       [
         {
-          "18": "Paraqitet një dizajn që përfaqëson historinë dhe kulturën kanadeze.",
-          "61": "Vlera numerike e monedhës: 1 Cent."
+          "37": "Paraqitet një dizajn që përfaqëson historinë dhe kulturën kanadeze.",
+          "10": "Vlera numerike e monedhës: 1 Cent."
         },
         {
           "26": "Tregon portretin e Mbretëreshës Elizabeth II, simbol i monarkisë në Kanada, me inskriptet 'Canada' dhe vitin e prodhimit.",
@@ -172,8 +172,8 @@ const data = [
       ],
       [
         {
-          "48": "Paraqitet një dizajn inspiruar nga natyra e mrekullueshme kanadeze, me elemente botanike.",
-          "24": "Vlera numerike e monedhës: 5 Cent."
+          "36": "Paraqitet një dizajn inspiruar nga natyra e mrekullueshme kanadeze, me elemente botanike.",
+          "3": "Vlera numerike e monedhës: 5 Cent."
         },
         {
           "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe vitin e prodhimit.",
@@ -182,8 +182,8 @@ const data = [
       ],
       [
         {
-          "60": "Paraqitet një dizajn abstrakt që simbolizon diversitetin kulturor të Kanadasë.",
-          "20": "Vlera numerike e monedhës: 10 Cent."
+          "37": "Paraqitet një dizajn abstrakt që simbolizon diversitetin kulturor të Kanadasë.",
+          "60": "Vlera numerike e monedhës: 10 Cent."
         },
         {
           "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe detaje moderne.",
@@ -192,8 +192,8 @@ const data = [
       ],
       [
         {
-          "26": "Paraqitet një dizajn që reflekton pasurinë natyrore të Kanadasë, duke përfshirë motive të pemëve dhe liqeneve.",
-          "61": "Vlera numerike e monedhës: 25 Cent."
+          "55": "Paraqitet një dizajn që reflekton pasurinë natyrore të Kanadasë, duke përfshirë motive të pemëve dhe liqeneve.",
+          "26": "Vlera numerike e monedhës: 25 Cent."
         },
         {
           "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe vitin e prodhimit.",
@@ -202,8 +202,8 @@ const data = [
       ],
       [
         {
-          "28": "Paraqitet figura e zogut 'Loony' – një simbol unik kanadez, i dizajnuar me shumë detaje.",
-          "60": "Vlera numerike e monedhës: 1 Dollar."
+          "47": "Paraqitet figura e zogut 'Loony' – një simbol unik kanadez, i dizajnuar me shumë detaje.",
+          "67": "Vlera numerike e monedhës: 1 Dollar."
         },
         {
           "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe elemente të dizajnit bashkëkohor.",
@@ -212,8 +212,8 @@ const data = [
       ],
       [
         {
-          "52": "Paraqitet një dizajn modern me dy ngjyra, që simbolizon dinamizmin dhe bashkimin në Kanada.",
-          "56": "Vlera numerike e monedhës: 2 Dollar."
+          "36": "Paraqitet një dizajn modern me dy ngjyra, që simbolizon dinamizmin dhe bashkimin në Kanada.",
+          "68": "Vlera numerike e monedhës: 2 Dollar."
         },
         {
           "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe elemente të artit bashkëkohor.",
