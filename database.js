@@ -13,73 +13,73 @@ const data = [
       [
         {
           "18": "Paraqitet një Ekidnë, që është endemike për Australinë, mbledhur në formë topi. Ky dizajn është krijuar nga Stuart Devlin.",
-          "61": "Vlera numerike e monedhës: 5 Cent."
+          "61": "Vlera numerike e monedhës: 5 Cent.",
         },
         {
           "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1966, ka përfshirë Mbretëreshën Elizabeth II. Pas vdekjes së saj në vitin 2022, tani tregon Mbreti Charles III.",
           "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
           "30": "Teksti 'Australi' tregon shtetin që i përket monedha.",
-          "64": "Teksti tregon vitin në të cilin monedha është prodhuar."
+          "64": "Teksti tregon vitin në të cilin monedha është prodhuar.",
         }
       ],
       [
         {
           "48": "Paraqitet një 'Lyrebird', që është endemik për Australinë. Ky dizajn është krijuar nga Stuart Devlin.",
-          "24": "Vlera numerike e monedhës: 10 Cent."
+          "24": "Vlera numerike e monedhës: 10 Cent.",
         },
         {
           "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1966, ka përfshirë Mbretëreshën Elizabeth II. Pas vdekjes së saj në vitin 2022, tani tregon Mbreti Charles III.",
           "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
           "30": "Teksti 'Australi' tregon shtetin që i përket monedha.",
-          "64": "Teksti tregon vitin në të cilin monedha është prodhuar."
+          "64": "Teksti tregon vitin në të cilin monedha është prodhuar.",
         }
       ],
       [
         {
           "60": "Paraqitet një Platipus, që është endemik për Australinë. Ky dizajn është krijuar nga Stuart Devlin.",
-          "20": "Vlera numerike e monedhës: 20 Cent."
+          "20": "Vlera numerike e monedhës: 20 Cent.",
         },
         {
           "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1966, ka përfshirë Mbretëreshën Elizabeth II. Pas vdekjes së saj në vitin 2022, tani tregon Mbreti Charles III.",
           "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
           "30": "Teksti 'Australi' tregon shtetin që i përket monedha.",
-          "64": "Teksti tregon vitin në të cilin monedha është prodhuar."
+          "64": "Teksti tregon vitin në të cilin monedha është prodhuar.",
         }
       ],
       [
         {
           "26": "Paraqitet Stema e Australisë, ku shfaqen simbolet shtetërore përfshirë kangurët dhe emu-të. Dizajn i krijuar nga Stuart Devlin.",
-          "61": "Vlera numerike e monedhës: 50 Cent."
+          "61": "Vlera numerike e monedhës: 50 Cent.",
         },
         {
           "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1966, ka përfshirë Mbretëreshën Elizabeth II. Pas vdekjes së saj në vitin 2022, tani tregon Mbreti Charles III.",
           "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
           "30": "Teksti 'Australi' tregon shtetin që i përket monedha.",
-          "64": "Teksti tregon vitin në të cilin monedha është prodhuar."
+          "64": "Teksti tregon vitin në të cilin monedha është prodhuar.",
         }
       ],
       [
         {
           "28": "Paraqiten 5 kangurë, një simbol unik për natyrën e Australisë. Dizajn nga Stuart Devlin.",
-          "60": "Vlera numerike e monedhës: 1 Dollar."
+          "60": "Vlera numerike e monedhës: 1 Dollar.",
         },
         {
           "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1966, ka përfshirë Mbretëreshën Elizabeth II. Pas vdekjes së saj në vitin 2022, tani tregon Mbreti Charles III.",
           "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
           "30": "Teksti 'Australi' tregon shtetin që i përket monedha.",
-          "64": "Teksti tregon vitin në të cilin monedha është prodhuar."
+          "64": "Teksti tregon vitin në të cilin monedha është prodhuar.",
         }
       ],
       [
         {
           "52": "Paraqitet një i moshuar Aborigjen, që nderon trashëgiminë kulturore të vendit. Dizajn nga Horst Hahne.",
-          "56": "Vlera numerike e monedhës: 2 Dollar."
+          "56": "Vlera numerike e monedhës: 2 Dollar.",
         },
         {
           "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1966, ka përfshirë Mbretëreshën Elizabeth II. Pas vdekjes së saj në vitin 2022, tani tregon Mbreti Charles III.",
           "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
           "30": "Teksti 'Australi' tregon shtetin që i përket monedha.",
-          "64": "Teksti tregon vitin në të cilin monedha është prodhuar."
+          "64": "Teksti tregon vitin në të cilin monedha është prodhuar.",
         }
       ]
     ]
@@ -88,67 +88,76 @@ const data = [
   {
     "country": "Shtetet e Bashkuara të Amerikës",
     "code": "USD",
-    "color": "red",
-    "name": ["Penny", "Nickel", "Dime", "Quarter", "Half Dollar", "Dollar"],
+    "color": "brown",
+    "name": ["1 Cent", "5 Cent", "10 Cent", "25 Cent", "50 Cent", "1 Dollar"],
     "coins": [
       [
         {
-          "18": "Paraqitet portreti i Abraham Lincoln, portreti ikonë i Presidentit të SHBA-së, i dizajnuar nga Victor David Brenner.",
-          "61": "Vlera numerike e monedhës: 1 Cent (Penny)."
+          "26": "Paraqitet Memoriali i Abraham Lincoln, i përdorur në reverse nga viti 1959 deri në 2008. Dizajn nga Frank Gasparro.",
+          "68": "Vlera numerike e monedhës: 1 Cent.",
         },
         {
-          "26": "Paraqitet dizajni i Lincoln Memorial, simbol i historisë amerikane, me inskriptet 'In God We Trust' dhe 'United States of America'.",
-          "22": "Detaj i hollësishëm i dizajnit të mbrapshëm."
+          "26": "Tregon portretin e Abraham Lincoln, bazuar në një medaljon të Victor David Brenner.",
+          "2": "Teksti 'IN GOD WE TRUST'.",
+          "42": "Teksti 'LIBERTY'.",
         }
       ],
       [
         {
-          "48": "Paraqitet portreti i Thomas Jefferson, figurë historike e rëndësishme, i dizajnuar me mjeshtëri nga Felix Schlag.",
-          "24": "Vlera numerike e monedhës: 5 Cent (Nickel)."
+          "26": "Paraqitet Monticello, shtëpia e Thomas Jefferson. Dizajn nga Felix Schlag.",
+          "61": "Vlera numerike e monedhës: 5 Cent.",
         },
         {
-          "26": "Paraqitet dizajni i mbrapshëm me simbole të 'Monticello' dhe inskriptet 'United States of America'.",
-          "22": "Detaj i hollësishëm i dizajnit të pasqyrës."
+          "26": "Tregon portretin e Thomas Jefferson, Dizajn nga Felix Schlag.",
+          "22": "Teksti 'IN GOD WE TRUST'.",
+          "30": "Teksti 'LIBERTY'.",
+          "57": "Teksti tregon vitin e prerjes.",
         }
       ],
       [
         {
-          "60": "Paraqitet portreti i Franklin D. Roosevelt, President i SHBA-së, i dizajnuar nga John R. Sinnock.",
-          "20": "Vlera numerike e monedhës: 10 Cent (Dime)."
+          "45": "Paraqitet një degë dushku dhe një degë ulliri, simbol i unitetit dhe paqes. Dizajn nga John R. Sinnock.",
+          "68": "Vlera numerike e monedhës: 10 Cent(ONE DIME).",
         },
         {
-          "26": "Paraqitet dizajni i mbrapshëm minimalist, me inskriptet 'In God We Trust' dhe 'United States of America'.",
-          "22": "Detaj grafik i dizajnit."
+          "26": "Tregon portretin e Franklin D. Roosevelt, Dizajn nga John R. Sinnock.",
+          "66": "Teksti 'IN GOD WE TRUST'.",
+          "22": "Teksti 'LIBERTY'.",
+          "64": "Teksti tregon vitin e prerjes dhe shenjën e prerjes.",
         }
       ],
       [
         {
-          "26": "Paraqitet portreti i George Washington, themelues dhe figurë kyçe e kombit, i dizajnuar me kujdes.",
-          "61": "Vlera numerike e monedhës: 25 Cent (Quarter)."
+          "26": "Paraqitet një shqiponjë fluturake. Dizajn nga John Flanagan.",
+          "66": "Vlera numerike e monedhës: 25 Cent.",
         },
         {
-          "26": "Paraqitet dizajni i mbrapshëm me peizazh amerikan dhe inskriptet 'United States of America' dhe 'E Pluribus Unum'.",
-          "22": "Detaje shtesë artistike."
+          "26": "Tregon portretin e George Washington, Dizajn nga John Flanagan.",
+          "51": "Teksti 'IN GOD WE TRUST'.",
+          "2": "Teksti 'LIBERTY'.",
+          "67": "Teksti tregon vitin e prerjes dhe shenjën e prerjes.",
         }
       ],
       [
         {
-          "28": "Paraqitet portreti i John F. Kennedy, figurë moderne dhe ikonë amerikane, i dizajnuar me elegancë.",
-          "60": "Vlera numerike e monedhës: 50 Cent (Half Dollar)."
+          "45": "Paraqitet Shënjali Presidencial me një shqiponjë e mbështetur te një mburojë. Dizajn nga Frank Gasparro.",
+          "66": "Vlera numerike e monedhës: 50 Cent.",
         },
         {
-          "26": "Paraqitet dizajni i mbrapshëm me inskriptin 'In God We Trust' dhe simbole që nderojnë historinë amerikane.",
-          "22": "Detaj grafik dhe inskriptet kombëtare."
+          "26": "Tregon portretin e John F. Kennedy, Dizajn nga Gilroy Roberts.",
+          "59": "Teksti 'IN GOD WE TRUST'.",
+          "30": "Teksti 'LIBERTY'.",
+          "66": "Teksti tregon vitin e prerjes dhe shenjën e prerjes.",
         }
       ],
       [
         {
-          "52": "Paraqitet portreti i Sacagawea, heroina kulturore, i dizajnuar për të nderuar trashëgiminë amerikane.",
-          "56": "Vlera numerike e monedhës: 1 Dollar."
+          "52": "Paraqitet një shqiponjë fluturake, simbol i lirive. Dizajn nga Thomas D. Rogers për Golden Dollar.",
+          "56": "Vlera numerike e monedhës: 1 Dollar.",
         },
         {
-          "26": "Paraqitet dizajni i mbrapshëm me motive indi dhe inskriptet 'United States of America' dhe 'In God We Trust'.",
-          "22": "Detaje të hollësishme për dizajnin bashkëkohor."
+          "26": "Tregon portretin e Teodor Ruzvelt.",
+          "58": "Teksti 'IN GOD WE TRUST'.",
         }
       ]
     ]
@@ -158,66 +167,66 @@ const data = [
     "country": "Kanada",
     "code": "CAD",
     "color": "red",
-    "name": ["1 Cent", "5 Cent", "10 Cent", "25 Cent", "1 Dollar (Loony)", "2 Dollar (Toonie)"],
+    "name": ["5 Cent", "10 Cent", "25 Cent", "50 Cent", "1 Dollar", "2 Dollar"],
     "coins": [
       [
         {
-          "37": "Paraqitet një dizajn që përfaqëson historinë dhe kulturën kanadeze.",
-          "10": "Vlera numerike e monedhës: 1 Cent."
+          "35": "Paraqitet një kërmill (beaver), simbol i Kanadasë. Dizajn nga G.E. Kruger-Gray.",
+          "3": "Vlera numerike e monedhës: 5 Cent.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, simbol i monarkisë në Kanada, me inskriptet 'Canada' dhe vitin e prodhimit.",
-          "22": "Detaje artistike dhe inskriptet shtetërore."
+          "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1953 përfshihet Mbretëresha Elizabeth II; pas vdekjes së saj në 2022 tani parashikohet portreti i Mbretit Charles III.",
+          "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
         }
       ],
       [
         {
-          "36": "Paraqitet një dizajn inspiruar nga natyra e mrekullueshme kanadeze, me elemente botanike.",
-          "3": "Vlera numerike e monedhës: 5 Cent."
+          "45": "Paraqitet anija ‘Bluenose’, simbol i trashëgimisë detare të Kanadasë. Dizajn nga Emanuel Hahn.",
+          "67": "Vlera numerike e monedhës: 10 Cent.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe vitin e prodhimit.",
-          "22": "Detaje të hollësishme mbi dizajnin."
+          "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1953 përfshihet Mbretëresha Elizabeth II; pas vdekjes së saj në 2022 tani parashikohet portreti i Mbretit Charles III.",
+          "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
         }
       ],
       [
         {
-          "37": "Paraqitet një dizajn abstrakt që simbolizon diversitetin kulturor të Kanadasë.",
-          "60": "Vlera numerike e monedhës: 10 Cent."
+          "54": "Paraqitet një karibu (caribou), simbol i natyrës së veriut kanadez. Dizajn nga Emanuel Hahn.",
+          "10": "Vlera numerike e monedhës: 25 Cent.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe detaje moderne.",
-          "22": "Detaje grafike dhe inskriptet zyrtare."
+          "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1953 përfshihet Mbretëresha Elizabeth II; pas vdekjes së saj në 2022 tani parashikohet portreti i Mbretit Charles III.",
+          "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
         }
       ],
       [
         {
-          "55": "Paraqitet një dizajn që reflekton pasurinë natyrore të Kanadasë, duke përfshirë motive të pemëve dhe liqeneve.",
-          "26": "Vlera numerike e monedhës: 25 Cent."
+          "26": "Paraqitet Stema e Kanadasë, me luanët dhe fishkëllima. Dizajn nga G.E. Kruger-Gray.",
+          "30": "Vlera numerike e monedhës: 50 Cent.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe vitin e prodhimit.",
-          "22": "Detaje artistike dhe simbole kulturore."
+          "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1953 përfshihet Mbretëresha Elizabeth II; pas vdekjes së saj në 2022 tani parashikohet portreti i Mbretit Charles III.",
+          "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
         }
       ],
       [
         {
-          "47": "Paraqitet figura e zogut 'Loony' – një simbol unik kanadez, i dizajnuar me shumë detaje.",
-          "67": "Vlera numerike e monedhës: 1 Dollar."
+          "54": "Paraqitet një patë e egër (loon), ikonë e liqeneve kanadeze. Dizajn nga Robert R. Davidson.",
+          "68": "Vlera numerike e monedhës: 1 Dollar.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe elemente të dizajnit bashkëkohor.",
-          "22": "Detaje shtesë për identitetin kombëtar."
+          "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1953 përfshihet Mbretëresha Elizabeth II; pas vdekjes së saj në 2022 tani parashikohet portreti i Mbretit Charles III.",
+          "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
         }
       ],
       [
         {
-          "36": "Paraqitet një dizajn modern me dy ngjyra, që simbolizon dinamizmin dhe bashkimin në Kanada.",
-          "68": "Vlera numerike e monedhës: 2 Dollar."
+          "45": "Paraqitet një arush polar, simbol i Arktikut kanadez. Dizajn nga Brent K. Lewis.",
+          "68": "Vlera numerike e monedhës: 2 Dollar.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'Canada' dhe elemente të artit bashkëkohor.",
-          "22": "Detaje të hollësishme mbi motivet kulturore."
+          "26": "Tregon portretin e monarkut të shtetit. Që nga viti 1953 përfshihet Mbretëresha Elizabeth II; pas vdekjes së saj në 2022 tani parashikohet portreti i Mbretit Charles III.",
+          "22": "Teksti tregon emrin e monarkut të paraqitur në monedhë.",
         }
       ]
     ]
@@ -227,275 +236,293 @@ const data = [
     "country": "Mbretëria e Bashkuar",
     "code": "GBP",
     "color": "gold",
-    "name": ["1 Pence", "2 Pence", "5 Pence", "10 Pence", "20 Pence", "50 Pence"],
+    "name": ["1 Penny", "2 Pence", "5 Pence", "10 Pence", "20 Pence", "50 Pence"],
     "coins": [
       [
         {
-          "18": "Paraqitet një dizajn tradicional me numërin 1, i projektuar me elegancë.",
-          "61": "Vlera numerike e monedhës: 1 Pence."
+          "35": "Paraqitet portkullisi i Mbretërisë Angleze, simbol i mburojës mbretërore. Dizajn origjinal nga William Wyon.",
+          "2": "Vlera numerike e monedhës: 1 Penny.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'United Kingdom' dhe vitin e prodhimit.",
-          "22": "Detaje të hollësishme mbi dizajnin klasik."
+          "26": "Tregon portretin e Mbretëreshës Elizabeth II, dizajn nga Jody Clark (2015–sot).",
+          "22": "Teksti 'ELIZABETH II D G REG F D'.",
+          "69": "Teksti tregon vitin e prerjes.",
         }
       ],
       [
         {
-          "48": "Paraqitet një dizajn minimalist me numërin 2, që pasqyron sofistikimin britanik.",
-          "24": "Vlera numerike e monedhës: 2 Pence."
+          "35": "Paraqitet stema e Princes së Uellsit: tre pendona të ndërlidhura me një kurorë. Dizajn nga Christopher Ironside.",
+          "2": "Vlera numerike e monedhës: 2 Pence.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptin 'UK' dhe elemente historike.",
-          "22": "Detaje artistike dhe inskriptet shtetërore."
+          "26": "Tregon portretin e Mbretëreshës Elizabeth II, dizajn nga Jody Clark (2015–sot).",
+          "22": "Teksti 'ELIZABETH II D G REG F D'.",
+          "69": "Teksti tregon vitin e prerjes.",
         }
       ],
       [
         {
-          "60": "Paraqitet një dizajn modern me numërin 5, duke reflektuar traditën britanike.",
-          "20": "Vlera numerike e monedhës: 5 Pence."
+          "35": "Paraqitet një kardhu i kurorëzuar (thistle), simbol i Skocisë. Dizajn nga Christopher Ironside.",
+          "61": "Vlera numerike e monedhës: 5 Pence.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'United Kingdom' dhe detaje të dizajnit.",
-          "22": "Elemente grafike dhe simbole kombëtare."
+          "26": "Tregon portretin e Mbretëreshës Elizabeth II, dizajn nga Jody Clark (2015–sot).",
+          "22": "Teksti 'ELIZABETH II D G REG F D'.",
         }
       ],
       [
         {
-          "26": "Paraqitet një dizajn i sofistikuar me numërin 10, i krijuar me linja të pasura.",
-          "61": "Vlera numerike e monedhës: 10 Pence."
+          "26": "Paraqitet një luan rampant, simbol i Anglisë. Dizajn nga Christopher Ironside.",
+          "61": "Vlera numerike e monedhës: 10 Pence.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptin 'Britania e Madhe' dhe vitin e prodhimit.",
-          "22": "Detaje artistike që lidh traditën me modernitetin."
+          "26": "Tregon portretin e Mbretëreshës Elizabeth II, dizajn nga Jody Clark (2015–sot).",
+          "22": "Teksti 'ELIZABETH II D G REG F D'.",
+          "64": "Teksti tregon vitin e prerjes.",
         }
       ],
       [
         {
-          "28": "Paraqitet një dizajn inovativ me numërin 20, që pasqyron trashëgiminë britanike.",
-          "60": "Vlera numerike e monedhës: 20 Pence."
+          "35": "Paraqitet trëndafili Tudor, simbol i unitetit kombëtar. Dizajn nga William Wyon.",
+          "60": "Vlera numerike e monedhës: 20 Pence.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet kombëtare dhe detaje të artit monetar.",
-          "22": "Elemente të dizajnit bashkëkohor dhe tradicional."
+          "26": "Tregon portretin e Mbretëreshës Elizabeth II, dizajn nga Jody Clark (2015–sot).",
+          "22": "Teksti 'ELIZABETH II D G REG F D'.",
         }
       ],
       [
         {
-          "52": "Paraqitet një dizajn modern me numërin 50, që kombinon elemente tradicionale dhe bashkëkohore.",
-          "56": "Vlera numerike e monedhës: 50 Pence."
+          "44": "Paraqitet Britannia duke mbajtur shtizën dhe degën e ullirit, simbol i fuqisë dhe paqes. Dizajn nga Philip Nathan.",
+          "67": "Vlera numerike e monedhës: 50 Pence.",
         },
         {
-          "26": "Tregon portretin e Mbretëreshës Elizabeth II, me inskriptet 'United Kingdom' dhe vitin e prodhimit.",
-          "22": "Detaje të sofistikuara artistike dhe inskriptet shtetërore."
+          "26": "Tregon portretin e Mbretëreshës Elizabeth II, dizajn nga Jody Clark (2015–sot).",
+          "22": "Teksti 'ELIZABETH II D G REG F D'.",
+          "69": "Teksti tregon vitin e prerjes.",
         }
       ]
     ]
   },
   // Zvicra (CHF)
   {
-    "country": "Zvicra",
+    "country": "Konfederata e Zvicrës",
     "code": "CHF",
-    "color": "red",
-    "name": ["5 Rappen", "10 Rappen", "20 Rappen", "50 Rappen", "1 Frang", "2 Frange"],
+    "color": "silver",
+    "name": ["5 Rappen", "10 Rappen", "20 Rappen", "50 Rappen", "1 Franc", "2 Franc", "5 Franc"],
     "coins": [
       [
         {
-          "18": "Paraqitet një dizajn elegant me numërin 5, që përfaqëson 5 rappen.",
-          "61": "Vlera numerike e monedhës: 5 Rappen."
+          "7": "Kurora dafineje që rrethon numrin, simbol i fitoreve dhe qëndrueshmërisë në Zvicër. Ky dizajn ekziston që nga 1874.",
+          "35": "Vlera numerike e monedhës: 5 Rappen.",
         },
         {
-          "26": "Paraqitet simboli kombëtar i Zvicrës me kryq elvetik dhe inskriptin 'Schweiz'.",
-          "22": "Detaje të dizajnit që reflektojnë unitetin zvicran."
+          "26": "Portreti i Helvetias, aligorike e Zvicrës si grua të fortë, me kurorë dafineje. Dizajn nga Karl Schwenzer (v. 1874).",
+          "22": "Teksti 'HELVETIA' (emri latin i Zvicrës).",
+          "67": "Viti i prerjes së monedhës.",
         }
       ],
       [
         {
-          "48": "Paraqitet një dizajn të thjeshtë me numërin 10, i krijuar me precizion artistik.",
-          "24": "Vlera numerike e monedhës: 10 Rappen."
+          "7": "Gjethe ulliri dhe dafine të ndërthura që rrethojnë numrin, simbol i paqes dhe unitetit kombëtar.",
+          "35": "Vlera numerike e monedhës: 10 Rappen.",
         },
         {
-          "26": "Tregon simbolin kombëtar dhe emrin 'Schweiz', së bashku me vitin e prodhimit.",
-          "22": "Detaje të pasura mbi motivet kulturore."
+          "26": "Portreti i Helvetias me profil të butë, me kurorë dafineje. Dizajn nga Karl Schwenzer (v. 1874).",
+          "22": "Teksti 'HELVETIA'.",
+          "67": "Viti i prerjes së monedhës.",
         }
       ],
       [
         {
-          "60": "Paraqitet një dizajn modern me numërin 20, që shpreh elegancinë zvicrane.",
-          "20": "Vlera numerike e monedhës: 20 Rappen."
+          "7": "Kurora gjethe firash, që simbolizon peizazhet malore të Zvicrës, rreth numrit.",
+          "35": "Vlera numerike e monedhës: 20 Rappen.",
         },
         {
-          "26": "Paraqitet simboli kombëtar me kryq elvetik dhe inskriptin 'Schweizerische Eidgenossenschaft'.",
-          "22": "Detaje artistike dhe simbole kombëtare."
+          "26": "Portreti i Helvetias me detaje të jamës në flokë, me kurorë dafineje. Dizajn nga Karl Schwenzer.",
+          "22": "Teksti 'HELVETIA'.",
+          "67": "Viti i prerjes së monedhës.",
         }
       ],
       [
         {
-          "26": "Paraqitet një dizajn simbolik me numërin 50, që pasqyron trashëgiminë kulturore të Zvicrës.",
-          "61": "Vlera numerike e monedhës: 50 Rappen."
+          "7": "Kurora kombinuese dafineje dhe ulliri, që rrethon numrin, simbol i unitetit.",
+          "35": "Vlera numerike e monedhës: 1/2 Frang dhe viti i prodhimit.",
         },
         {
-          "26": "Paraqitet simboli kombëtar dhe një motiv elvetik, me inskriptin 'Schweiz'.",
-          "22": "Detaje të hollësishme mbi artin monetar zvicran."
+          "26": "Portreti i Helvetias në profil, e kuruar me kurorë dafineje. Dizajn nga Karl Schwenzer.",
         }
       ],
       [
         {
-          "28": "Paraqitet një dizajn klasik që përfaqëson vlerën 1 frang, me elemente tradicionale.",
-          "60": "Vlera numerike e monedhës: 1 Frang."
+          "60": "Kurora gjethe dafineje drejtkëndëshe, që përfshin numrin—shenjë e traditës monetare zvicerane.",
+          "26": "Vlera numerike e monedhës: 1 Franc dhe viti i prodhimit.",
         },
         {
-          "26": "Paraqitet simboli kombëtar i Zvicrës me kryq elvetik dhe emrin 'Confoederatio Helvetica'.",
-          "22": "Detaje të sofistikuara kulturore."
+          "26": "Portreti i Helvetias, shprehje e vendosur me kurorë dafineje. Dizajn nga R. Studer (v. 1888).",
         }
       ],
       [
         {
-          "52": "Paraqitet një dizajn modern me numërin 2, që simbolizon dytoninë e kulturës zvicrane.",
-          "56": "Vlera numerike e monedhës: 2 Frange."
+          "57": "Kurora ulliri e mbështjellur me rrip, simbol i lirisë dhe besueshmërisë financiare.",
+          "26": "Vlera numerike e monedhës: 2 Franc dhe viti i prodhimit.",
         },
         {
-          "26": "Paraqitet simboli kombëtar, me inskriptet dhe vitin e prodhimit.",
-          "22": "Detaje të hollësishme mbi dizajnin bashkëkohor."
+          "26": "Portreti i Helvetias me vendosmëri, me kurorë dafineje. Dizajn nga R. Studer.",
+        }
+      ],
+      [
+        {
+          "36": "Kurora e pasur dafineje dhe ulliri rreth vlerës më të madhe, simbol i stabilitetit financiar zviceran.",
+          "61": "Viti i prodhimit.",
+        },
+        {
+          "26": "Portreti i Helvetias me detaje të holla, kurorë dafineje dhe rripa flokësh të lidhur. Dizajn nga R. Studer.",
+          "22": "Teksti 'HELVETIA'.",
         }
       ]
     ]
   },
   // Japoni (JPY)
   {
-    "country": "Japoni",
+    "country": "日本国",
     "code": "JPY",
-    "color": "red",
+    "color": "bronze",
     "name": ["1 Yen", "5 Yen", "10 Yen", "50 Yen", "100 Yen", "500 Yen"],
     "coins": [
       [
         {
-          "18": "Paraqitet një dizajn i thjeshtë me numërin 1, që përfaqëson 1 yen.",
-          "61": "Vlera numerike e monedhës: 1 Yen."
+          "67": "Viti i prerjes së monedhës në kalendarin japonez (p.sh. 令和4年).",
+          "45": "Vlera numerike e monedhës: 1 Yen.",
         },
         {
-          "26": "Paraqitet simboli kombëtar me inskriptin '日本国' dhe vitin e prodhimit.",
-          "22": "Detaje të dizajnit të hollësishme."
+          "45": "Paraqitet një fidan i vogël i paralajmërimit të gjelbërimit—simbol i rigjenerimit dhe zhvillimit ekonomik (1円).",
+          "61": "Shënuesi në kanji për valutat: '一円'.",
+          "3": "Teksti '日本国' tregon emrin e shtetit në kanji.",
         }
       ],
       [
         {
-          "48": "Paraqitet një dizajn simbolik me numërin 5, që reflekton vlerën 5 yen.",
-          "24": "Vlera numerike e monedhës: 5 Yen."
+          "10": "Paraqiten tri dërrasa fasuleje orizi, rrotull një vrimë qendrore—simbol i begatisë së risive bujqësore (5円).",
+          "61": "Shënuesi në kanji: '五円'.",
         },
         {
-          "26": "Paraqitet një hapësirë bosh që simbolizon fatin e mirë, me inskriptet tradicionale japoneze.",
-          "22": "Detaje të dizajnit minimaliste."
+          "10": "Teksti '日本国'.",
+          "61": "Viti i prerjes (令和4年 etj.).",
         }
       ],
       [
         {
-          "60": "Paraqitet një dizajn modern me numërin 10, i krijuar me linja të pasura.",
-          "20": "Vlera numerike e monedhës: 10 Yen."
+          "26": "Viti i prerjes (令和4年 etj.) dhe vlera numerike.",
         },
         {
-          "26": "Paraqitet simboli kombëtar me inskriptin '日本国' dhe elemente të frymëzuara nga kultura japoneze.",
-          "22": "Detaje të sofistikuara artistike."
+          "10": "Teksti '日本国'.",
+          "68": "Shënuesi në kanji: '十円'.",
+          "45": "Paraqitet Pallati Phoenix i tempullit Byōdō-in, monument UNESCO në Uji—simbol i trashëgimisë kulturore (10円).",
         }
       ],
       [
         {
-          "26": "Paraqitet një dizajn të detajuar me numërin 50, që përfaqëson 50 yen.",
-          "61": "Vlera numerike e monedhës: 50 Yen."
+          "10": "Vlera numerike e monedhës: 50 Yen.",
+          "67": "Viti i prerjes (令和4年 etj.).",
         },
         {
-          "26": "Paraqitet një dizajn tradicional me motive japoneze dhe inskriptin '日本国'.",
-          "22": "Detaje të hollësishme mbi trashëgiminë kulturore."
+          "33": "Nënvizon një lule krizantemeje me vrimë qendrore—simboli zyrtar perandorak i Japonisë (50円).",
+          "3": "Teksti '日本国'.",
+          "61": "Shënuesi në kanji: '五十円'.",
         }
       ],
       [
         {
-          "28": "Paraqitet një dizajn modern me numërin 100, që simbolizon ekonominë dhe inovacionin japonez.",
-          "60": "Vlera numerike e monedhës: 100 Yen."
+          "26": "Vlera numerike e monedhës: 100 Yen.",
+          "68": "Viti i prerjes (令和4年 etj.).",
         },
         {
-          "26": "Paraqitet dizajni me motive kulturore dhe inskriptin '日本国', duke nderuar trashëgiminë kombëtare.",
-          "22": "Detaje të artit bashkëkohor dhe tradicional."
+          "26": "Paraqitet degë lules së qershisë (sakura), simbol i bukurisë së përkohshme dhe ringjalljes (100円).",
+          "3": "Teksti '日本国'.",
+          "67": "Shënuesi në kanji: '百円'.",
         }
       ],
       [
         {
-          "52": "Paraqitet një dizajn madhështor me numërin 500, që pasqyron vlerën e lartë të monedhës japoneze.",
-          "56": "Vlera numerike e monedhës: 500 Yen."
+          "26": "Vlera numerike e monedhës: 500 Yen.",
+          "67": "Viti i prerjes (令和4年 etj.).",
         },
         {
-          "26": "Paraqitet një dizajn kompleks që kombinon elemente tradicionale dhe moderne, me inskriptin '日本国' dhe vitin e prodhimit.",
-          "22": "Detaje të hollësishme mbi dizajnin bashkëkohor."
+          "45": "Paraqitet një degë paulowniaje (kiri), simbol i autoritetit imperial dhe rimëkëmbjes (500円).",
+          "3": "Teksti '日本国'.",
+          "67": "Shënuesi në kanji: '五百円'.",
         }
       ]
     ]
   },
   // Meksika (MXN)
   {
-    "country": "Meksika",
+    "country": "Estados Unidos Mexicanos",
     "code": "MXN",
-    "color": "green",
+    "color": "bimetallic",
     "name": ["5 Centavos", "10 Centavos", "20 Centavos", "50 Centavos", "1 Peso", "2 Pesos"],
     "coins": [
       [
         {
-          "18": "Paraqitet një dizajn që përfaqëson artin tradicional me numërin 5, duke simbolizuar 5 centavos.",
-          "61": "Vlera numerike e monedhës: 5 Centavos."
+          "3": "Viti i prerjes së monedhës.",
+          "45": "Vlera numerike e monedhës: 5 Centavos.",
         },
         {
-          "26": "Paraqitet imazhi i një simboli kulturor me inskriptin 'Estados Unidos Mexicanos' dhe vitin e prodhimit.",
-          "22": "Detaje të hollësishme mbi trashëgiminë kulturore."
+          "26": "Stema kombëtare me shqiponjën dhe gjarpërin.",
+          "14": "Teksti 'ESTADOS UNIDOS MEXICANOS'.",
         }
       ],
       [
         {
-          "48": "Paraqitet një dizajn i detajuar me numërin 10, që përfaqëson 10 centavos.",
-          "24": "Vlera numerike e monedhës: 10 Centavos."
+          "3": "Viti i prerjes së monedhës.",
+          "45": "Vlera numerike e monedhës: 10 Centavos.",
         },
         {
-          "26": "Paraqitet një motiv tradicional me inskriptin 'México' dhe elemente historike.",
-          "22": "Detaje mbi artin dhe simbolikën kombëtare."
+          "26": "Stema kombëtare me shqiponjën dhe gjarpërin.",
+          "14": "Teksti 'ESTADOS UNIDOS MEXICANOS'.",
         }
       ],
       [
         {
-          "60": "Paraqitet një dizajn modern me numërin 20, që reflekton artin dhe historinë meksikanë.",
-          "20": "Vlera numerike e monedhës: 20 Centavos."
+          "3": "Viti i prerjes së monedhës.",
+          "45": "Vlera numerike e monedhës: 20 Centavos.",
         },
         {
-          "26": "Paraqitet një dizajn simbolik me inskriptet 'Estados Unidos Mexicanos' dhe motive kulturore.",
-          "22": "Detaje të hollësishme mbi trashëgiminë artistike."
+          "26": "Stema kombëtare me shqiponjën dhe gjarpërin.",
+          "14": "Teksti 'ESTADOS UNIDOS MEXICANOS'.",
         }
       ],
       [
         {
-          "26": "Paraqitet një dizajn elegant me numërin 50, që simbolizon 50 centavos.",
-          "61": "Vlera numerike e monedhës: 50 Centavos."
+          "3": "Viti i prerjes së monedhës.",
+          "45": "Vlera numerike e monedhës: 50 Centavos.",
         },
         {
-          "26": "Paraqitet imazhi i një personaliteti historik meksikan, me inskriptet kombëtare dhe vitin e prodhimit.",
-          "22": "Detaje mbi motivet historike dhe kulturore."
+          "26": "Stema kombëtare me shqiponjën dhe gjarpërin.",
+          "14": "Teksti 'ESTADOS UNIDOS MEXICANOS'.",
         }
       ],
       [
         {
-          "28": "Paraqitet një dizajn klasik me numërin 1, që përfaqëson 1 peso, me elemente tradicionale.",
-          "60": "Vlera numerike e monedhës: 1 Peso."
+          "10": "Viti i prerjes së monedhës.",
+          "45": "Vlera numerike e monedhës: 1 Pesos.",
         },
         {
-          "26": "Paraqitet imazhi i një simboli kombëtar, me inskriptin 'México' dhe elemente të trashëgimisë kulturore.",
-          "22": "Detaje të hollësishme mbi artin meksikan."
+          "26": "Stema kombëtare me shqiponjën dhe gjarpërin.",
+          "14": "Teksti 'ESTADOS UNIDOS MEXICANOS'.",
         }
       ],
       [
         {
-          "52": "Paraqitet një dizajn modern me numërin 2, që reflekton vlerën 2 pesos, me linja të pasura artistike.",
-          "56": "Vlera numerike e monedhës: 2 Pesos."
+          "16": "Viti i prerjes së monedhës.",
+          "46": "Vlera numerike e monedhës: 2 Pesos.",
         },
         {
-          "26": "Paraqitet një dizajn simbolik me elemente tradicionale, me inskriptet 'Estados Unidos Mexicanos' dhe vitin e prodhimit.",
-          "22": "Detaje mbi kombinimin e traditës dhe modernitetit."
+          "26": "Stema kombëtare me shqiponjën dhe gjarpërin.",
+          "14": "Teksti 'ESTADOS UNIDOS MEXICANOS'.",
         }
-      ]
+      ],
     ]
   }
 ];
